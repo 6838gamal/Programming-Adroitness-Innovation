@@ -31,24 +31,22 @@ export default function AdminSettingsPage() {
                 <CardContent className="space-y-4">
                     <div className="space-y-2">
                         <Label htmlFor="smart-assistant-model">Smart Assistant Model</Label>
-                        <Select defaultValue="gemini-2.5-flash">
+                        <Select defaultValue="gemini-pro">
                             <SelectTrigger id="smart-assistant-model">
                                 <SelectValue placeholder="Select a model" />
                             </SelectTrigger>
                             <SelectContent>
-                                <SelectItem value="gemini-2.5-flash">Gemini 2.5 Flash</SelectItem>
                                 <SelectItem value="gemini-pro">Gemini Pro</SelectItem>
                             </SelectContent>
                         </Select>
                     </div>
                     <div className="space-y-2">
                         <Label htmlFor="guidance-assistant-model">Guidance Assistant Model</Label>
-                         <Select defaultValue="gemini-2.5-flash">
+                         <Select defaultValue="gemini-pro">
                             <SelectTrigger id="guidance-assistant-model">
                                 <SelectValue placeholder="Select a model" />
                             </SelectTrigger>
                             <SelectContent>
-                                <SelectItem value="gemini-2.5-flash">Gemini 2.5 Flash</SelectItem>
                                 <SelectItem value="gemini-pro">Gemini Pro</SelectItem>
                             </SelectContent>
                         </Select>
