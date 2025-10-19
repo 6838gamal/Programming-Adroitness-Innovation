@@ -95,7 +95,9 @@ export function ChatUI() {
 
   const handleToggleRecording = async () => {
     if (isRecording) {
-      mediaRecorderRef.current?.stop();
+      if (mediaRecorderRef.current && mediaRecorderRef.current.state === "recording") {
+        mediaRecorderRef.current.stop();
+      }
       setIsRecording(false);
     } else {
       try {
@@ -295,13 +297,13 @@ export function ChatUI() {
             onChange={(e) => setInput(e.target.value)}
             placeholder={t('ask_about_course')}
             className="flex-1"
-            disabled={isPending}
+            disabled={isPending || isRecording}
           />
            <Button type="button" size="icon" variant={isRecording ? "destructive" : "outline"} onClick={handleToggleRecording} disabled={isPending}>
             {isRecording ? <StopCircle className="h-4 w-4" /> : <Mic className="h-4 w-4" />}
             <span className="sr-only">{isRecording ? "Stop recording" : "Start recording"}</span>
           </Button>
-          <Button type="submit" size="icon" disabled={isPending || !input.trim()}>
+          <Button type="submit" size="icon" disabled={isPending || !input.trim() || isRecording}>
             {isPending ? <Loader2 className="h-4 w-4 animate-spin" /> : <Send className="h-4 w-4" />}
             <span className="sr-only">{t('send')}</span>
           </Button>
