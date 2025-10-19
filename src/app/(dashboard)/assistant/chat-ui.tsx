@@ -98,19 +98,23 @@ export function ChatUI() {
       if (mediaRecorderRef.current && mediaRecorderRef.current.state === "recording") {
         mediaRecorderRef.current.stop();
       }
-      setIsRecording(false);
     } else {
       try {
         const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
-        const mediaRecorder = new MediaRecorder(stream); // Let the browser decide the mimeType
+        const mediaRecorder = new MediaRecorder(stream);
         mediaRecorderRef.current = mediaRecorder;
         audioChunksRef.current = [];
+
+        mediaRecorder.onstart = () => {
+          setIsRecording(true);
+        };
 
         mediaRecorder.ondataavailable = (event) => {
           audioChunksRef.current.push(event.data);
         };
 
         mediaRecorder.onstop = async () => {
+          setIsRecording(false);
           const audioBlob = new Blob(audioChunksRef.current, { type: mediaRecorder.mimeType });
           const reader = new FileReader();
           reader.readAsDataURL(audioBlob);
@@ -128,10 +132,13 @@ export function ChatUI() {
         };
 
         mediaRecorder.start();
-        setIsRecording(true);
       } catch (error) {
         console.error("Error accessing microphone:", error);
-        alert("Microphone access was denied. Please allow access to use this feature.");
+        toast({
+            variant: "destructive",
+            title: "Microphone Error",
+            description: "Could not access microphone. Please ensure permission is granted.",
+        });
       }
     }
   };
@@ -312,3 +319,5 @@ export function ChatUI() {
     </div>
   );
 }
+
+    
