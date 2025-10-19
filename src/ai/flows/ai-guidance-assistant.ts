@@ -1,4 +1,7 @@
 'use server';
+import { config } from 'dotenv';
+config();
+
 /**
  * @fileOverview This file defines the AI Guidance Assistant flow for providing career and learning path advice.
  *
@@ -6,8 +9,6 @@
  * - AIGuidanceAssistantInput - The input type for the aiGuidanceAssistant function.
  * - AIGuidanceAssistantOutput - The output type for the aiGuidanceAssistant function.
  */
-import { config } from 'dotenv';
-config();
 
 import {ai} from '@/ai/genkit';
 import {z} from 'genkit';

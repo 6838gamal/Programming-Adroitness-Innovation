@@ -1,4 +1,7 @@
 'use server';
+import { config } from 'dotenv';
+config();
+
 /**
  * @fileOverview An AI course recommendation agent.
  *
@@ -6,8 +9,6 @@
  * - AICourseRecommendationsInput - The input type for the aiCourseRecommendations function.
  * - AICourseRecommendationsOutput - The return type for the aiCourseRecommendations function.
  */
-import { config } from 'dotenv';
-config();
 
 import {ai} from '@/ai/genkit';
 import {z} from 'genkit';

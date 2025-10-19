@@ -1,4 +1,7 @@
 'use server';
+import { config } from 'dotenv';
+config();
+
 /**
  * @fileOverview A text-to-speech AI agent.
  *
@@ -6,8 +9,6 @@
  * - TextToSpeechInput - The input type for the textToSpeech function.
  * - TextToSpeechOutput - The return type for the textToSpeech function.
  */
-import { config } from 'dotenv';
-config();
 
 import {ai} from '@/ai/genkit';
 import {z} from 'genkit';

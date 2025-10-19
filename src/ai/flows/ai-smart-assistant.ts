@@ -1,4 +1,6 @@
 'use server';
+import { config } from 'dotenv';
+config();
 
 /**
  * @fileOverview This file defines the AI Smart Assistant flow for personalized learning support.
@@ -7,8 +9,6 @@
  * - AISmartAssistantInput - The input type for the aiSmartAssistant function.
  * - AISmartAssistantOutput - The output type for the aiSmart-assistant function.
  */
-import { config } from 'dotenv';
-config();
 
 import {ai} from '@/ai/genkit';
 import {z} from 'genkit';
