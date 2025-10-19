@@ -6,6 +6,8 @@
  * - AIGuidanceAssistantInput - The input type for the aiGuidanceAssistant function.
  * - AIGuidanceAssistantOutput - The output type for the aiGuidanceAssistant function.
  */
+import { config } from 'dotenv';
+config();
 
 import {ai} from '@/ai/genkit';
 import {z} from 'genkit';

@@ -6,6 +6,8 @@
  * - SpeechToTextInput - The input type for the speechToText function.
  * - SpeechToTextOutput - The return type for the speechToText function.
  */
+import { config } from 'dotenv';
+config();
 
 import {ai} from '@/ai/genkit';
 import {z} from 'genkit';

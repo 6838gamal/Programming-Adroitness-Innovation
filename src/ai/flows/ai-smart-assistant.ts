@@ -7,6 +7,8 @@
  * - AISmartAssistantInput - The input type for the aiSmartAssistant function.
  * - AISmartAssistantOutput - The output type for the aiSmart-assistant function.
  */
+import { config } from 'dotenv';
+config();
 
 import {ai} from '@/ai/genkit';
 import {z} from 'genkit';
