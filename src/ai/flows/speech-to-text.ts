@@ -1,6 +1,4 @@
 'use server';
-import { config } from 'dotenv';
-config();
 /**
  * @fileOverview A speech-to-text AI agent.
  *
@@ -68,7 +66,7 @@ const speechToTextFlow = ai.defineFlow(
           },
         },
       ],
-      model: googleAI.model('gemini-1.5-flash-latest')
+      model: googleAI.model('gemini-1.5-flash')
     });
     return {text};
   }
