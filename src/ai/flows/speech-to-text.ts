@@ -10,6 +10,7 @@
 import {ai} from '@/ai/genkit';
 import {z} from 'genkit';
 import wav from 'wav';
+import {googleAI} from '@genkit-ai/google-genai';
 
 const SpeechToTextInputSchema = z.object({
   audio: z.string().describe(
@@ -58,6 +59,7 @@ const speechToTextFlow = ai.defineFlow(
   },
   async input => {
     const {text} = await ai.generate({
+      model: googleAI.model('gemini-1.5-flash-latest'),
       prompt: [
         {
           media: {
