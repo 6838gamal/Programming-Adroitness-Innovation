@@ -1,0 +1,52 @@
+{
+  "placeholderImages": [
+    {
+      "id": "python-mastery",
+      "description": "A comprehensive course on Python programming.",
+      "imageUrl": "https://picsum.photos/seed/1/600/400",
+      "imageHint": "code abstract"
+    },
+    {
+      "id": "ai-fundamentals",
+      "description": "Learn the basics of Artificial Intelligence and Machine Learning.",
+      "imageUrl": "https://picsum.photos/seed/2/600/400",
+      "imageHint": "AI brain"
+    },
+    {
+      "id": "cybersecurity-essentials",
+      "description": "Protect systems and data from cyber threats.",
+      "imageUrl": "https://picsum.photos/seed/3/600/400",
+      "imageHint": "cyber security"
+    },
+    {
+      "id": "web-development-bootcamp",
+      "description": "Become a full-stack web developer.",
+      "imageUrl": "https://picsum.photos/seed/4/600/400",
+      "imageHint": "web design"
+    },
+    {
+      "id": "data-science-deep-dive",
+      "description": "Master data analysis, visualization, and modeling.",
+      "imageUrl": "https://picsum.photos/seed/5/600/400",
+      "imageHint": "data charts"
+    },
+    {
+      "id": "cloud-computing-aws",
+      "description": "Learn to build and deploy applications on AWS.",
+      "imageUrl": "https://picsum.photos/seed/6/600/400",
+      "imageHint": "cloud server"
+    },
+    {
+      "id": "react-for-beginners",
+      "description": "A beginner's guide to building UIs with React.",
+      "imageUrl": "https://picsum.photos/seed/7/600/400",
+      "imageHint": "react logo"
+    },
+    {
+      "id": "ethical-hacking",
+      "description": "Learn to think like a hacker to protect networks.",
+      "imageUrl": "https://picsum.photos/seed/8/600/400",
+      "imageHint": "hacker code"
+    }
+  ]
+}
