@@ -1,5 +1,6 @@
 'use server';
-
+import { config } from 'dotenv';
+config();
 /**
  * @fileOverview A text-to-speech AI agent.
  *
