@@ -69,6 +69,7 @@ const speechToTextFlow = ai.defineFlow(
           },
         },
       ],
+      model: googleAI.model('gemini-1.5-flash-latest')
     });
     return {text};
   }
