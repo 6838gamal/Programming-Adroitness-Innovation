@@ -7,7 +7,7 @@
  * - AICourseRecommendationsOutput - The return type for the aiCourseRecommendations function.
  */
 
-import {ai} from '@/ai/genkit';
+import {ai} from '@/ai';
 import {z} from 'genkit';
 
 const AICourseRecommendationsInputSchema = z.object({

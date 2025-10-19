@@ -7,7 +7,7 @@
  * - SpeechToTextOutput - The return type for the speechToText function.
  */
 
-import {ai} from '@/ai/genkit';
+import {ai} from '@/ai';
 import {z} from 'genkit';
 import wav from 'wav';
 import {googleAI} from '@genkit-ai/google-genai';

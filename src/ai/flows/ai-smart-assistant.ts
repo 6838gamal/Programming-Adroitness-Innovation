@@ -7,7 +7,7 @@
  * - AISmartAssistantOutput - The output type for the aiSmart-assistant function.
  */
 
-import {ai} from '@/ai/genkit';
+import {ai} from '@/ai';
 import {z} from 'genkit';
 
 const AISmartAssistantInputSchema = z.object({
