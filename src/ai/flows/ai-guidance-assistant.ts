@@ -1,6 +1,4 @@
 'use server';
-import { config } from 'dotenv';
-config();
 
 /**
  * @fileOverview This file defines the AI Guidance Assistant flow for providing career and learning path advice.

@@ -1,6 +1,4 @@
 'use server';
-import { config } from 'dotenv';
-config();
 
 /**
  * @fileOverview An AI course recommendation agent.
