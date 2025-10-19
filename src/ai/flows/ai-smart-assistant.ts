@@ -1,5 +1,6 @@
 'use server';
-
+import { config } from 'dotenv';
+config();
 /**
  * @fileOverview This file defines the AI Smart Assistant flow for personalized learning support.
  *
