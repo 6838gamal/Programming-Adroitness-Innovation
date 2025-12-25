@@ -1,0 +1,367 @@
+
+{
+    "appName": {
+        "en": "PAI Smart Academy",
+        "ar": "أكاديمية PAI الذكية"
+    },
+    "launch_app": {
+        "en": "Launch App",
+        "ar": "ابدأ التطبيق"
+    },
+    "hero_title": {
+        "en": "Unlock Your Potential with AI-Powered Learning",
+        "ar": "أطلق العنان لقدراتك مع التعلم المدعوم بالذكاء الاصطناعي"
+    },
+    "hero_subtitle": {
+        "en": "PAI Smart Academy offers a personalized journey to master new skills, with an AI assistant to guide you every step of the way.",
+        "ar": "تقدم أكاديمية PAI الذكية رحلة مخصصة لإتقان مهارات جديدة، مع مساعد ذكي لإرشادك في كل خطوة على الطريق."
+    },
+    "start_learning_today": {
+        "en": "Start Learning Today",
+        "ar": "ابدأ التعلم اليوم"
+    },
+    "why_us_title": {
+        "en": "Why PAI Smart Academy?",
+        "ar": "لماذا أكاديمية PAI الذكية؟"
+    },
+    "feature_assistant_title": {
+        "en": "AI Smart Assistant",
+        "ar": "المساعد الذكي"
+    },
+    "feature_assistant_desc": {
+        "en": "Get personalized help, feedback, and explanations 24/7.",
+        "ar": "احصل على مساعدة وتعليقات وتوضيحات مخصصة على مدار الساعة."
+    },
+    "feature_courses_title": {
+        "en": "Comprehensive Courses",
+        "ar": "دورات شاملة"
+    },
+    "feature_courses_desc": {
+        "en": "Explore a vast library of courses from programming to AI.",
+        "ar": "استكشف مكتبة واسعة من الدورات من البرمجة إلى الذكاء الاصطناعي."
+    },
+    "feature_community_title": {
+        "en": "Community Hub",
+        "ar": "مركز المجتمع"
+    },
+    "feature_community_desc": {
+        "en": "Connect with peers, join study groups, and showcase projects.",
+        "ar": "تواصل مع الأقران، وانضم إلى مجموعات الدراسة، واستعرض المشاريع."
+    },
+    "admin_login": {
+        "en": "Admin Login",
+        "ar": "دخول المسؤول"
+    },
+    "copyright": {
+        "en": "© {{year}} PAI Smart Academy. All rights reserved.",
+        "ar": "© {{year}} أكاديمية PAI الذكية. جميع الحقوق محفوظة."
+    },
+    "terms_of_service": {
+        "en": "Terms of Service",
+        "ar": "شروط الخدمة"
+    },
+    "privacy": {
+        "en": "Privacy",
+        "ar": "الخصوصية"
+    },
+    "tools": {
+        "en": "Tools",
+        "ar": "أدوات"
+    },
+    "ai_assistant": {
+        "en": "AI Assistant",
+        "ar": "المساعد الذكي"
+    },
+    "career_guide": {
+        "en": "Career Guide",
+        "ar": "مرشدك المهني"
+    },
+    "career_guide_desc": {
+        "en": "Your AI guide for career and learning paths in tech.",
+        "ar": "مرشدك الذكي للمسارات المهنية والتعليمية في مجال التكنولوجيا."
+    },
+    "career_guide_subtitle": {
+        "en": "Ask me about career paths, skills, or learning roadmaps.",
+        "ar": "اسألني عن المسارات الوظيفية، المهارات، أو خرائط التعلم."
+    },
+    "career_guide_placeholder": {
+        "en": "Ask for guidance on your tech career...",
+        "ar": "اطلب إرشادات حول مسيرتك المهنية في التكنولوجيا..."
+    },
+    "resources": {
+        "en": "Resources",
+        "ar": "المصادر"
+    },
+    "soon": {
+        "en": "Soon",
+        "ar": "قريباً"
+    },
+    "personal": {
+        "en": "Personal",
+        "ar": "شخصي"
+    },
+    "dashboard": {
+        "en": "Dashboard",
+        "ar": "لوحة التحكم"
+    },
+    "courses": {
+        "en": "Courses",
+        "ar": "الدورات"
+    },
+    "for_you": {
+        "en": "For You",
+        "ar": "لك"
+    },
+    "community": {
+        "en": "Community",
+        "ar": "المجتمع"
+    },
+    "discussions": {
+        "en": "Discussions",
+        "ar": "مناقشات"
+    },
+    "projects": {
+        "en": "Projects",
+        "ar": "مشاريع"
+    },
+    "study_groups": {
+        "en": "Study Groups",
+        "ar": "مجموعات دراسية"
+    },
+    "pai_smart_assistant": {
+        "en": "PAI Smart Assistant",
+        "ar": "مساعد PAI الذكي"
+    },
+    "how_can_i_help_today": {
+        "en": "How can I help you learn today?",
+        "ar": "كيف يمكنني مساعدتك في التعلم اليوم؟"
+    },
+    "ask_about_course": {
+        "en": "Ask about a course, concept, or assignment...",
+        "ar": "اسأل عن دورة، مفهوم، أو واجب..."
+    },
+    "send": {
+        "en": "Send",
+        "ar": "إرسال"
+    },
+    "thinking": {
+        "en": "Thinking...",
+        "ar": "جارٍ التفكير..."
+    },
+    "welcome_back": {
+        "en": "Welcome Back, Student!",
+        "ar": "أهلاً بعودتك أيها الطالب!"
+    },
+    "courses_in_progress": {
+        "en": "Courses in Progress",
+        "ar": "دورات قيد التنفيذ"
+    },
+    "keep_up_great_work": {
+        "en": "Keep up the great work!",
+        "ar": "استمر في عملك الرائع!"
+    },
+    "weekly_goal": {
+        "en": "Weekly Goal",
+        "ar": "الهدف الأسبوعي"
+    },
+    "hours": {
+        "en": "Hours",
+        "ar": "ساعات"
+    },
+    "ai_recommendations": {
+        "en": "AI Recommendations",
+        "ar": "توصيات الذكاء الاصطناعي"
+    },
+    "new_courses_picked": {
+        "en": "New courses picked for you",
+        "ar": "دورات جديدة مختارة لك"
+    },
+    "continue_learning": {
+        "en": "Continue Learning",
+        "ar": "واصل التعلم"
+    },
+    "pick_up_where_you_left_off": {
+        "en": "Pick up where you left off.",
+        "ar": "أكمل من حيث توقفت."
+    },
+    "complete": {
+        "en": "complete",
+        "ar": "مكتمل"
+    },
+    "resume": {
+        "en": "Resume",
+        "ar": "استئناف"
+    },
+    "suggested_for_you": {
+        "en": "Suggested For You",
+        "ar": "مقترح لك"
+    },
+    "new_courses_based_on_interests": {
+        "en": "New courses based on your interests.",
+        "ar": "دورات جديدة بناءً على اهتماماتك."
+    },
+    "course_library": {
+        "en": "Course Library",
+        "ar": "مكتبة الدورات"
+    },
+    "course_library_desc": {
+        "en": "Explore our comprehensive catalog of courses.",
+        "ar": "استكشف كتالوج الدورات الشامل الخاص بنا."
+    },
+    "all_categories": {
+        "en": "All Categories",
+        "ar": "جميع الفئات"
+    },
+    "lessons": {
+        "en": "Lessons",
+        "ar": "دروس"
+    },
+    "start_learning": {
+        "en": "Start Learning",
+        "ar": "ابدأ التعلم"
+    },
+    "community_hub": {
+        "en": "Community Hub",
+        "ar": "مركز المجتمع"
+    },
+    "community_hub_desc": {
+        "en": "Connect, collaborate, and learn with your peers.",
+        "ar": "تواصل، تعاون، وتعلم مع زملائك."
+    },
+    "new_post": {
+        "en": "New Post",
+        "ar": "منشور جديد"
+    },
+    "project_showcase": {
+        "en": "Project Showcase",
+        "ar": "معرض المشاريع"
+    },
+    "posted_by": {
+        "en": "Posted by {{name}}",
+        "ar": "نشر بواسطة {{name}}"
+    },
+    "likes": {
+        "en": "Likes",
+        "ar": "إعجابات"
+    },
+    "comments": {
+        "en": "Comments",
+        "ar": "تعليقات"
+    },
+    "study_groups_desc": {
+        "en": "Find or create study groups to learn with peers.",
+        "ar": "ابحث عن أو أنشئ مجموعات دراسية للتعلم مع الزملاء."
+    },
+    "search_groups": {
+        "en": "Search groups...",
+        "ar": "ابحث عن مجموعات..."
+    },
+    "create_group": {
+        "en": "Create Group",
+        "ar": "أنشئ مجموعة"
+    },
+    "members": {
+        "en": "members",
+        "ar": "أعضاء"
+    },
+    "join_group": {
+        "en": "Join Group",
+        "ar": "انضم للمجموعة"
+    },
+    "project_showcase_desc": {
+        "en": "Discover and share projects from the PAI Academy community.",
+        "ar": "اكتشف وشارك المشاريع من مجتمع أكاديمية PAI."
+    },
+    "submit_project": {
+        "en": "Submit Project",
+        "ar": "أرسل مشروع"
+    },
+    "by_author": {
+        "en": "By {{author}}",
+        "ar": "بواسطة {{author}}"
+    },
+    "stars": {
+        "en": "Stars",
+        "ar": "نجوم"
+    },
+    "resource_library": {
+        "en": "Resource Library",
+        "ar": "مكتبة المصادر"
+    },
+    "resource_library_desc": {
+        "en": "A curated collection of notes, tutorials, and cheat sheets.",
+        "ar": "مجموعة منسقة من الملاحظات والدروس وأوراق الغش."
+    },
+    "all_resources": {
+        "en": "All Resources",
+        "ar": "كل المصادر"
+    },
+    "search_resources": {
+        "en": "Search resources...",
+        "ar": "ابحث في المصادر..."
+    },
+    "title": {
+        "en": "Title",
+        "ar": "العنوان"
+    },
+    "type": {
+        "en": "Type",
+        "ar": "النوع"
+    },
+    "category": {
+        "en": "Category",
+        "ar": "الفئة"
+    },
+    "date": {
+        "en": "Date",
+        "ar": "التاريخ"
+    },
+    "author": {
+        "en": "Author",
+        "ar": "المؤلف"
+    },
+    "ai_course_suggestions": {
+        "en": "AI Course Suggestions",
+        "ar": "اقتراحات الدورات بالذكاء الاصطناعي"
+    },
+    "ai_course_suggestions_desc": {
+        "en": "Tell us what you want to learn, and our AI will find the perfect courses for you.",
+        "ar": "أخبرنا بما تريد أن تتعلمه، وسيقوم الذكاء الاصطناعي لدينا بالعثور على الدورات المثالية لك."
+    },
+    "find_your_next_course": {
+        "en": "Let's Find Your Next Course",
+        "ar": "لنجد دورتك القادمة"
+    },
+    "your_interests": {
+        "en": "Your Interests",
+        "ar": "اهتماماتك"
+    },
+    "interests_placeholder": {
+        "en": "e.g., 'building web applications with modern Javascript frameworks, data visualization, or machine learning models.'",
+        "ar": "مثال: 'بناء تطبيقات الويب باستخدام أطر عمل جافاسكريبت الحديثة، تصور البيانات، أو نماذج تعلم الآلة.'"
+    },
+    "interests_desc": {
+        "en": "What topics are you passionate about?",
+        "ar": "ما هي المواضيع التي أنت شغوف بها؟"
+    },
+    "your_learning_goals": {
+        "en": "Your Learning Goals",
+        "ar": "أهدافك التعليمية"
+    },
+    "learning_goals_placeholder": {
+        "en": "e.g., 'I want to build a career as a full-stack developer,' or 'I want to understand how to apply AI to my business.'",
+        "ar": "مثال: 'أريد بناء مسيرة مهنية كمطور متكامل،' أو 'أريد أن أفهم كيفية تطبيق الذكاء الاصطناعي في عملي.'"
+    },
+    "learning_goals_desc": {
+        "en": "What do you hope to achieve with your learning?",
+        "ar": "ماذا تأمل في تحقيقه من خلال تعلمك؟"
+    },
+    "suggest_courses": {
+        "en": "Suggest Courses",
+        "ar": "اقترح دورات"
+    },
+    "suggested_courses_appear_here": {
+        "en": "Your suggested courses will appear here.",
+        "ar": "ستظهر دوراتك المقترحة هنا."
+    }
+}
